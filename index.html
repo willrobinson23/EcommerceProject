@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YourCart</title>
+    <title>Your Cart</title>
     <link rel="stylesheet" href="project.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -13,11 +13,11 @@
         <div>
             <ul id="navbar" class="">
                 <i id="cross" class="fa fa-multiply"></i>
-                <li><a class="current" href="Projectn.html">Home</a></li>
+                <li><a class="current" href="index.html">Home</a></li>
                 <li><a href="shop.html">Shop</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <!-- <li><a href="blog.html">Blog</a></li> -->
+                <li><a href="about.html">About - Contacts</a></li>
+                <!-- <li><a href="contact.html">Contact</a></li> -->
                 <li id="lg-bar"><a href="cart.html"><i class="fa fa-shopping-bag"></i></a></li>
             </ul>
         </div>
@@ -31,7 +31,7 @@
         <h2>Super value deals</h2>
         <h1>On all products</h1>
         <p>Save more with coupons & up to 70% off! </p> 
-        <button>Shop Now</button>
+        <button><a href="shop.html">Shop Now</a></button>
     </section>
     <section id="feature" class="h">
         <div class="febox">
@@ -63,7 +63,7 @@
         <h2>Featured Products</h2>
         <p>Summer Collections New Modern Designs</p>
         <div class="container">
-            <div class="pro">
+            <div class="pro" onclick="window.location.href='sproduct.html'">
             <img src="img/products/f1.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -380,7 +380,7 @@
             <div class="follow">
                 <h4>Follow us</h4>
                 <div class="icon">
-                    <i class="fab fa-facebook-f"></i>
+                    <i onclick="window.location.href='https://www.facebook.com/ankit.poudel.90813'" class="fab fa-facebook-f"></i>
                     <i class="fab fa-twitter"></i>
                     <i class="fab fa-instagram"></i>
                     <i class="fab fa-pinterest-p"></i>
@@ -390,7 +390,7 @@
         </div>
         <div class="col1">
             <h4 style="padding-bottom: 10px;">About</h4>
-            <a href="#">About us</a>
+            <a href="about.html">About us</a>
             <a href="#">Delivery Information</a>
             <a href="#">Privacy Policy</a>
             <a href="#">terms & Conditions</a>
@@ -399,7 +399,7 @@
         <div class="account">
             <h4 style="padding-bottom: 10px;">Activities</h4>
             <a href="#">Sign In</a>
-            <a href="#">View Cart</a>
+            <a href="cart.html">View Cart</a>
             <a href="#">My Wishlist</a>
             <a href="#">Track my order</a>
             <a href="#">Help</a>
